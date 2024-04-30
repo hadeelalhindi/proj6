@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+img{
+    border: 5px solid blue;
+    border-radius: 35px;
+    width: 100%;
+  }
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Add margin for better spacing, especially on larger screens */
+    margin: 0 auto;
+    max-width: 90%; /* Set a maximum width to prevent overflow */
+  }
+  
+  figure {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  figure img {
+    width: 250px; /* Adjust as needed based on image dimensions */
+    height: auto;
+    margin: 0 auto;
+    /* Add a border for better visual separation */
+    border: 1px solid #ddd;
+  }
+  
+  figure figcaption {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .grid figure img {
+      width: 200px; /* Adjust width for smaller screens */
+    }
+  
+    .grid {
+      /* Adjust grid layout for smaller screens */
+      justify-content: space-between; /* Consider other layouts like flex-direction: column */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid figure img {
+      width: 150px; /* Adjust width for even smaller screens */
+    }
+  
+    /* Add more media queries for even smaller screens or specific device orientations */
+  }
+  
